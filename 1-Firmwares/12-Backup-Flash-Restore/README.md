@@ -265,21 +265,21 @@ Examples:
 To update an original Lidl/Silvercrest gateway with EmberZNet 7.5.0:
 
 ```
-./flash_ezsp7 192.168.1.88 ncp-uart-7.5.0.gbl
+./flash_ezsp7 192.168.1.88 ncp-uart-hw-7.5.0.gbl
 ```
 
 To update an already hacked Lidl/Silvercrest gateway using the
 `NCP_UHW_MG1B232_678_PA0-PA1-PB11_PA5-PA4.gbl` firmware with Ember 7.4.5:
 
 ```
-./flash_ezsp8 192.168.1.88 ncp-uart-7.4.5.gbl
+./flash_ezsp8 192.168.1.88 ncp-uart-hw-7.4.5.gbl
 ```
 
 To update an already hacked Lidl/Silvercrest gateway using a 7.4.5
 EmberZNet firmware with EmberZNet 7.5.0:
 
 ```
-./flash_ezsp13 192.168.1.88 ncp-uart-7.5.0.gbl
+./flash_ezsp13 192.168.1.88 ncp-uart-hw-7.5.0.gbl
 ```
 
 ### Universal-silabs-flasher
